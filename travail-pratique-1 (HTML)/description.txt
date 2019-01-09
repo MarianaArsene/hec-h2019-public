@@ -1,0 +1,33 @@
+================================================================================
+
+Voici la description du travail pratique #1 (HTML) pour un total de 7.5% de votre note finale.
+
+1) Pour 0.5pt :
+Dans un fichier nommé "index.html" (fichier à remettre), générez le template de base en utilisant la touche "!" + "Tab" tel que démontré. Ensuite, modifiez le titre du document (un des attributs dans la section <head>) pour "Tiers d'une application Web"
+
+2) Pour 0.5pt :
+Ajoutez une balise de division (<div>) à l'intérieur du <body> HTML, qui contiendra le reste du contenu décrit ci-bas.
+
+3) Pour 1.5pts : 
+Ajoutez trois titres (h3) avez 3 paragraphes (choisissez la balise appropriée) à l'intérieur de la division précédemment créée, dans l'ordre suivant :
+titre h3
+paragraphe 
+titre h3 
+paragraphe 
+titre h3 
+paragraphe 
+
+4) Pour 3pts :
+Écrivez le nom des différents "tiers" composant une application Web à l'intérieur des titres (h3). Étant donné qu'il y a trois "tiers", chaque titre sera unique.
+Dans chacun des paragraphes vous écrirez une brève description correspondant au titre le précédant. Pour la description, l'objectif n'est pas de copier-coller le texte des diapos, mais plutôt de réellement comprendre la signification.
+
+5) Pour 2pts :
+À l'intérieur de chacun des paragraphes, vous ajouterez avant la balise de fermeture du paragraphe un lien hypertexte vers une référence que vous trouverez par vous-mêmes en lien avez le "tier" du paragraphe en cours.
+Effectuez une recherche Google pour trouver une référence pertinente, et vous êtes encouragés à prendre le temps de lire cette référence pour votre propre compréhension.
+Note importante : vous séparerez ce lien du texte de ce paragraphe en insérant un saut de ligne (cherchez pour la balise si vous ne la connaissez pas encore).
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================
