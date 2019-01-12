@@ -1,0 +1,17 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 5-10 minutes pour vous familiariser avec le template de base HTML.
+
+1. Créez un fichier nommé index.html.
+2. Utilisez "!" + "tab" pour créer le template de base.
+3. Essayez d'accéder au Github en cas d'oubli de la touche de raccourci.
+4. Modifiez le titre du document.
+5. Ajoutez un peu de contenu visible dans la section <body>.
+6. Visionnez votre page, et jouez avec le contenu pour observer l'impact.
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

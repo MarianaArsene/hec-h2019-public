@@ -1,0 +1,27 @@
+Cours 2 - HTML - Un langage balisé
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.png).
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page HTML.
+    
+======Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de pratiquer votre sens d'analyse.
+
+Détails de construction
+
+3) À l'intérieur du fichier HTML vide, mettez en place une structure de base, entre autre avec les éléments <head> et <body>. Donnez le titre de Nike au document.
+
+Conseil : Vous pouvez taper un point d'exclamation ("!"), puis la touche "Tab". Cela mettra en place la structure en place pour vous grâce à ce qui s'appelle un "snippet"!
+
+4) À l'intérieur du body, ajoutez un élément de division (div).
+
+5) Dans cet élément de division, ajoutez:
+    - Un commentaire : Description générale du produit
+    - Un titre niveau 3 : NIKE AIR VAPORMAX
+    - Un titre niveau 6 : CHAUSSURE DE RUNNING POUR HOMME
+    - Une image, avec la source suivante : "stars-orange.png"
+        Assurez-vous d'avoir copié le fichier au bon emplacement!
+    - Un titre niveau 6 : CAD 235
+
+Voilà, vous avez créé votre première page HTML et le premier bloc de la page NikeHEC!
