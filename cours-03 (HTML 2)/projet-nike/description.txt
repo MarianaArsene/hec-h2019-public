@@ -1,0 +1,24 @@
+Cours 3 - HTML - Les éléments principaux
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+    
+Note : Nous partons aujourd'hui d'une version légèrement modifiée du code final de la semaine passée. Assurez-vous de télécharger le code initial!
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page HTML.
+    
+====Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de pratiquer votre sens d'analyse.
+
+Détails de construction
+
+3) Sous le commentaire <!--Options d'achat-->, ajoutez une division qui contiendra les éléments des prochaines étapes.
+
+4) Ajoutez un premier paragraphe, dans lequel les deux morceaux de texte seront séparés par un saut de ligne (<br>), et contenus dans leur balise <small> respective. Consultez l'aperçu pour déterminer et ajouter ces morceaux de texte.
+    
+5) Ajoutez les trois images (mini-*.jpeg) dans une nouvelle division.
+
+6) Puis, dans une dernière division, ajoutez :
+    - "Guide des tailles et des coupes" (utilisez les balise <p> et <u>)
+    - Un lien hypertexte vers "#" avec le texte "Taille"
+    - Un lien hypertexte vers "#" avec le texte "Ajouter au panier"
