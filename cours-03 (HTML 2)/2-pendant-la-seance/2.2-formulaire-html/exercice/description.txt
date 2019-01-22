@@ -9,7 +9,7 @@ Prenez 10 minutes pour créer un formulaire HTML.
 
 3. À l'intérieur du formulaire, ajoutez deux champs (<input>) : le premier pour le nom de l'item acheté (type texte) et le deuxième pour la quantité achetée.
 
-4. Ajoutez une étiquette (<label<) pour chacun des champs.
+4. Ajoutez une étiquette (<label>) pour chacun des champs.
 
 5. Ajoutez un bouton pour soumettre le formulaire (indice : input de type submit).
 
