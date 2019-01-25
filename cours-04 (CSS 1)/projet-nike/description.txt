@@ -1,0 +1,30 @@
+Cours 4 - CSS - Les sélecteurs
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+    
+Note : Notre point de départ pour cet exercice correspond à la solution finale de la semaine passée.
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page HTML.
+    
+====Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de  pratiquer votre sens d'analyse.
+
+Détails de construction
+
+3) Créez style.css et ajouter un lien (référence) vers ce fichier à partir de  index.html.
+    
+4) Ajoutez un attribut "class" aux liens "Taille", "Ajouter au panier", et donnez la valeur "btn" à cet attribut.
+    
+5a) Ajoutez la valeur "btn-light" à l'attribut "class" du lien "Taille"
+5b) Ajoutez la valeur "btn-primary" à l'attribut "class" du lien "Ajouter au panier"
+
+Note : À ce point, les deux liens auront une classe partagée et une classe  spécifique.
+
+6) Ajouter un attribut "id" de valeur "section-description-produit" à la division qui contient la description principale (sous le commentaire <!--Description générale du produit-->)
+    
+7) Dans le fichier de style, pratiquez votre habilité à utiliser les sélecteurs :
+7a) Ciblez l'élément avec "id" de "section-description-produit" et donnez-lui le style suivant : "border-bottom: 1px solid #ddd;"
+7b) Ciblez les éléments avec "class" de "btn" et donnez-leur le style suivant : " padding: 5px 10px 5px 10px;"
+7c) Ciblez l'élément avec "class" de "btn-light" et donnez-lui le style suivant : "background-color: #ddd;"
+7d) Ciblez l'élément avec "class" de "btn-primary" et donnez-lui le style suivant : background-color: rgba(250, 84, 0, .8);

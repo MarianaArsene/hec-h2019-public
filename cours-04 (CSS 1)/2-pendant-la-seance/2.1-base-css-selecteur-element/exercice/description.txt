@@ -1,0 +1,26 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 15 minutes pour écrire vos premières lignes de CSS. Nous en profiterons au passage pour utiliser les tables HTML.
+
+1. Téléchargez le fichier de départ, et renommez-le pour index.html
+
+2. Ouvrez la balise de style dans la section <head> du fichier HTML, afin de  pouvoir écrire du CSS.
+
+3. En utilisant le sélecteur de type "élément", ajoutez le style suivant aux  éléments. Vous pouvez copier-coller les déclarations CSS.
+
+3.1 Pour toutes les cellules de l'en-tête de table (éléments <th>), appliquez le style suivant :
+      text-decoration: underline;
+      
+3.2 Pour toutes les cellules de données de la table (éléments <td>), appliquez le style suivant :
+      text-align: center;
+      
+3.3 Pour toutes les cellules de l'en-tête ET de données de la table, appliquez les styles suivants :
+      border: 1px solid black;
+      width: 75px;
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

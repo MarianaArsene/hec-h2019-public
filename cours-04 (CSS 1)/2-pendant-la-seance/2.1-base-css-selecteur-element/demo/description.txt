@@ -1,0 +1,65 @@
+================================================================================
+
+Avant de démarrer l'aspect programmation, effectuons un rappel.
+Dans le tier de présentation ("front-end") des applications Web, trois langages sont utilisés : 
+- Le HTML
+- Le CSS
+- Le Javascript
+
+Nous avons vu le HTML (structure) au Bloc 1 et nous verrons le Javascript (comportement, dynamisme) au Bloc 3.
+
+Le CSS (Bloc 2 que nous démarrons aujourd'hui) définit l'apparence des pages Web.
+
+================================================================================
+
+Ceci étant dit, commençons la première démonstration afin de vous fournir une compréhension plus appliquée. 
+
+1. Insérons un template de base HTML
+
+2. Ajoutons :
+- Trois paragraphes avec du Lorem Ipsum
+- Un élément HTML "span" à l'intérieur des deux premiers paragraphes
+- Un lien hypertexte dans le dernier paragraphe
+
+3. Définissons une balise de style pour écrire notre CSS.
+3.1 Cette balise ira dans la section <head> du HTML
+3.2 La balise à utiliser est <style>, avec l'attribut type="text/css"
+3.3 Un snippet peut être utilisé pour vous éviter la mémorisation
+3.4 À l'intérieur de cette balise <style>, nous pouvons écrire du CSS!
+
+================================================================================
+
+La syntaxe des règles CSS est :
+
+--------------------
+sélecteur {
+    declaration
+}
+--------------------
+
+La portion "déclaration" s'écrit :
+--------------------
+propriété: valeur;
+--------------------
+
+Le premier type de sélecteur que nous voyons est le sélecteur "élément".
+
+Il permet de cibler tous les éléments d'un certain type (ex. paragraphe, division, lien hypertexte, table, etc.) afin de leur appliquer un certain style.
+
+4. En utilisant le sélecteur de type "élément", ajoutons du style aux éléments suivants :
+4.1 Paragraphes : couleur rouge et police Arial
+4.2 Éléments span : première lettre en majuscule et police de taille 32px 
+4.3 Lien hypertexte : couleur d'arrière-plan rose
+
+À noter : 
+- Il peut y avoir plusieurs lignes de déclaration (propriété: valeur;) à l'intéreur de la même déclaration comme nous venons de le voir
+- Nous verrons aujourd'hui quelques propriétés et valeurs de base puisque cela est requis pour écrire du CSS, mais nous nous concentrons aujourd'hui sur les sélecteurs. Le cours 5 discutera des propriétés et valeurs.
+- Nous verrons aujourd'hui deux autres sélecteurs (.class et #id)
+
+Voilà le tour est joué! Nous avons écrit nos premières lignes de CSS!
+
+================================================================================
+
+Notes supplémentaires : L'utilisation d'une feuille de style (CSS) externe est  recommandée, plutôt que la balise <style>. Nous verrons cette approche plus tard aujourd'hui.
+    
+================================================================================

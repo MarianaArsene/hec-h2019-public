@@ -1,0 +1,30 @@
+================================================================================
+
+Nous avons vu que nous pouvons appliquer du style à l'ensemble des éléments d'un certain type grâce au CSS et à l'utilisation des sélecteurs de type "élément".
+
+Que pouvons-nous faire si nous voulons cibler seulement quelques éléments HTML spécifiques? Ou encore un seul?
+
+Regardons comment les sélecteurs de type ".class" et "#id" peuvent être utiles.
+
+1. Reprenons le code HTML de la démonstration 2.1.
+
+2. Maintenant, pour cibler seulement les deux premiers paragraphes, ajoutons un attribut "class" avec une valeur de "feedback-error".
+
+3. Dans le CSS, nous pouvons cibler ces deux paragraphes avec le sélecteur CSS  de type "class". Nous allons écrire le nom de la classe de la même manière que pour le sélecteur de type "élément", mais cette fois-ci en la précédent du point (".").
+
+4. Enlevons la déclaration de couleur de police rouge du sélecteur paragraphe, et appliquons-là pour le sélecteur de la classe "feedback-error". Que voyons-nous maintenant?
+
+5. Et maintenant, si nous voulions cibler un élément spécifique? Nous pourrions donner une classe ("class") unique à cet élément, mais il existe un attribut spécialement conçu pour cela : l'attribut "id".
+
+6. Donnons au premier paragraphe un id de "first-error".
+
+7. Nous pouvons cibler ce paragraphe avec le sélecteur CSS de type "id". Cette  fois-ci, nous allons précéder la valeur du "id" d'un dièse ("#").
+
+8. Appliquons le style suivant à ce sélecteur : 
+    border: 2px solid red;
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================
