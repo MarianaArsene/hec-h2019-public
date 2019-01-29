@@ -1,0 +1,13 @@
+p, a {
+    color: green;
+    background-color: pink;
+}
+.para-rouge {
+    border: 2px dotted red;
+}
+.para-large {
+    font-size: 2em;
+}
+#para-specifique {
+    font-weight: bold;
+}

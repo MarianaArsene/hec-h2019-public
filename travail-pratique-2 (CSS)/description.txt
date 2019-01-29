@@ -1,0 +1,86 @@
+================================================================================
+
+Voici la description du travail pratique #2 (CSS) pour un total de 7.5% de votre note finale.
+
+--------------------------------------------------------------------------------
+
+Préparation du TP :
+
+A) Téléchargez les 4 fichiers requis :
+      index.html
+      base.css
+      style.css 
+      apercu.png
+      
+B) Assurez-vous de mettre vos fichiers dans un même dossier.
+
+C) Le fichier base.css contient du code CSS qui vous est fourni pour donner un style de base.
+
+D) Le fichier style.css est vide et contiendra le code que vous écrirez.
+NOTE IMPORTANTE : Il s'agit du seul fichier à remettre sur Zonecours.
+
+E) Le fichier apercu.jpg vous donne l'apercu du résultat final désiré.
+
+F) Validez que vous êtes en mesure de visualiser la barre de navigation dans son format initial. Vous devriez constater qu'un style de base est déjà appliqué (à titre d'exemple : le champ de formulaire et le bouton devraient être à la droite de l'écran).
+
+--------------------------------------------------------------------------------
+
+Description générale du TP :
+
+Vous allez écrire les règles CSS nécessaires pour styliser une barre de navigation.
+
+--------------------------------------------------------------------------------
+
+Description détaillée (étapes) :
+
+1) Pour 0.5pt :
+Liez le fichier style.css à votre page index.html avec la balise appropriée.
+
+2) Pour 1.5pts :
+2.1) Utilisez le sélecteur CSS de type ".class" pour cibler les éléments HTML avec une "class" de "navbar-dark"
+Appliquez, pour le sélecteur ci-dessus, les deux règles CSS suivantes :
+2.2) Un "padding" où le padding vertical est 0.5em et le padding horizontal est 1em (Note : en lisant la documentation ci-dessous, vous trouverez comment faire)
+2.3) Une couleur d'arrière-plan avec la valeur hexadécimale #343a40 
+
+Documentation utile pour le padding: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+Documentation utile pour la couleur d'arrière-plan : https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+
+3) Pour 2pts :
+3.1) Utilisez le sélecteur CSS de type ".class" pour cibler les éléments HTML avec une "class" de "navbar-brand"
+Appliquez, pour le sélecteur ci-dessus, les trois règles CSS suivantes :
+3.2) Donnez à la propriété "display" une valeur de "inline-block"
+3.3) Donnez une taille de police de 1.25rem (cherchez de la documentation sur la 
+propriété à utiliser pour modifier la taille de police)
+3.4) Donnez une couleur au texte (à la police) de #fff (cherchez de la documentation sur la propriété à utiliser pour modificer la couleur de police)
+
+4) Pour 1.5pts :
+4.1) Utilisez le sélecteur CSS de type ".class" pour cibler les éléments HTML avec une "class" de "form-control"
+Appliquez, pour le sélecteur ci-dessus, les deux règles CSS suivantes :
+4.2) Une bordure (propriété : "border") de :
+         - 1px d'épaisseur
+         - continue ("solid")
+         - de couleur #ced4da
+4.3) Un rayon de corbure de .25rem pour la bordure (cherchez par vous-mêmes pour la propriété CSS à utiliser pour le rayon de courbure d'une bordure)
+
+Documentation utile pour définir la bordure avec une seule déclaration :
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+5) Pour 1pt :
+5.1) Utilisez le sélecteur CSS de type ".class" pour cibler les éléments HTML avec une "class" de "btn"
+Appliquez, pour le sélecteur ci-dessus, la règle CSS suivante :
+5.2) Un "padding" où le padding vertical est .375rem et le padding horizontal est 0.75em (utilisez la même documentation qu'au point 2)
+
+6) Pour 1pt :
+6.1) Utilisez le sélecteur CSS de type ".class" pour cibler les éléments HTML avec une "class" de "mr-sm-2"
+Appliquez, pour le sélecteur ci-dessus, la règle CSS suivante :
+6.2) Une marge de .5rem à la droite de l'élément (à la droite seulement!).
+Documentation utile pour définir des marges (lisez attentivement sur la propriété exacte pour définir la marge de droite) : 
+https://www.w3schools.com/css/css_margin.asp
+
+Félicitations! Vous avez complété le TP#2 et devriez avoir une barre de navigation qui a du style! 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================
