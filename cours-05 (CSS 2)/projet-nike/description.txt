@@ -1,0 +1,30 @@
+Cours 5 - CSS - Les propriétés et valeurs
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+    
+Note : Notre point de départ pour cet exercice correspond à la solution finale de la semaine passée.
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page HTML.
+    
+====Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de  pratiquer votre sens d'analyse.
+
+Détails de construction
+
+Note : le code à ajouter se retrouvera uniquement dans le fichier de style (style.css)
+La façon exacte d'arriver à appliquer le style pour les éléments ci-dessous peut être trouvée dans le livre PDF de référence ou encore en effectuant une recherche Google.
+
+3) Pour le bouton "btn-primary", changez la couleur de la police pour blanc.
+
+4) Pour le bouton "btn-light", changez la couleur de la police pour noir.
+
+5) Enlevez le soulignement pour les boutons de classe "btn".
+
+6) Augmentez le padding pour les boutons de classe "btn" à "8px 20px 8px 20px".
+
+7) Donnez un rayon de 5px à la bordure des boutons de classe "btn".
+
+Puis, en extra (et un peu plus difficile) :
+
+8) Donnez un effet d'éclaircissement aux boutons de classe "btn" lorsque l'utilisateur passe sa souris par-dessus un bouton. Vous aurez besoin du sélecteur :hover ainsi que de la propriété "opacity".

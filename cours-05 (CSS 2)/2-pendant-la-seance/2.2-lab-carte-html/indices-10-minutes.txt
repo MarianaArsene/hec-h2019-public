@@ -1,0 +1,23 @@
+================================================================================
+
+1. Donnez à la carte le style suivant :
+- Largeur de 300px
+- Bordure de 1px, continue et de couleur "lightgrey"
+- Rayon de bordure de 4px
+    
+2. Donnez au corps de la carte (soyez observateurs sur les attributs "class") le style suivant :
+- Un "padding" de 12px afin de "faire respirer" le texte (espace sur les côtés)
+- Une taille de police de 1.1em
+
+3. Donnez au titre de niveau 5 (<h5>) le style suivant :
+- Une taille de police de 1.25em
+- Une marge de dessus (margin-top) de 15px
+- Une marge de dessous (margin-bottom) de 15px
+
+4. En utilisant un sélecteur de type "class", donnez à l'image une largeur de  100% afin de la contraindre dans l'espace disponible.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

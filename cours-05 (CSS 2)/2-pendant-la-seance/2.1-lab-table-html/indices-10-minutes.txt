@@ -1,0 +1,19 @@
+================================================================================
+
+1. Assurez-vous que la table prenne 100% de la largeur disponible.
+
+2. Donnez au texte des cellules ayant une "class" de "positive-variation" la couleur darkgreen.
+
+3. Donnez au texte des cellules ayant une "class" de "negative-variation" la couleur red.
+
+4. Donnez aux cellules de l'en-tête (<th>) une bordure de dessous (border-bottom) de 2px d'épais, continue (solid) et de couleur #dee2e6.
+
+5. Donnez aux cellules de l'en-tête (<th>) ainsi qu'aux cellules du corps de la table (<td>) le style suivant :
+    5.1 Un "padding" de 12px de donner un peu d'espace dans les cellules
+    5.2 Une bordure de dessus (border-top) de 1px d'épais, continue (solid) et  de couleur #dee2e6.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

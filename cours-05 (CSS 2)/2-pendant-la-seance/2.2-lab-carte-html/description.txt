@@ -1,0 +1,27 @@
+================================================================================
+
+Les "cartes" sont fréquemment utilisée en développement Web. Elles représentent une composante flexible permettant de combiner une image, un titre, une  description et un bouton ("call to action"). On les retrouve dans les sites nous permettant de sélectionner un forfait, dans les sites de e-commerce, et dans une certaine mesure sur les sites de réseaux sociaux (publication avec photo).
+
+Pour les prochaines 25 minutes,
+En équipes de 2-4 personnes : 
+
+1. Téléchargez les fichiers de départ à partir du compte Github.
+
+2. Essayez de reproduire l'aperçu (qui sera également affiché aux écrans)  correspondant à la solution finale. 
+Note : Votre mandat est d'écrire le CSS dans le fichier "style.css" sous le  commentaire /* CSS à écrire */
+
+Informations requises :
+    Utilisez votre créativité pour sélectionner les couleurs, largeurs, bordures et autres valeurs. La solution finale vous présentera une option plausible. 
+
+3. Après 10 minutes, je fournirai quelques indices afin de vous aider.
+
+4. Quand les 25 minutes seront écoulées, une équipe viendra à l'avant nous  présenter sa solution et nous l'expliquer, et nous les aiderons dans le cas où ils en ont besoin.
+
+5. Je vous présenterai la solution finale ainsi qu'un peu de théorie en lien  avec ce deuxième laboratoire.
+
+================================================================================
+
+Notes supplémentaires : 
+Vous remarquerez que le bouton est déjà stylisé dans le fichier de départ. Étant donné que vous avez déjà eu l'occasion dans l'exercice avant de séance de pratiquer l'écriture de CSS pour un bouton, je vous ai fourni cette portion ici.
+    
+================================================================================

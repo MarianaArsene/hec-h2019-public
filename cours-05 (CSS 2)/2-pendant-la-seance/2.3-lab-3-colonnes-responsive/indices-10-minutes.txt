@@ -1,0 +1,19 @@
+================================================================================
+
+1. Donnez aux divisions avec "class" de "column" le style suivant :
+- Largeur de 33%
+- Un "float" de "left" (souvenez vous de vos lectures!)
+- Un padding de 10px
+Notez que cela sera le style par défaut lorsqu'aucune "media query" n'est activée.
+
+2. En utilisant les medias queries, pour les écrans de 992px de largeur maximale, donnez le style suivant aux divisions avec "class" de "column" :
+- Largeur de 50%
+
+2. En utilisant les medias queries, pour les écrans de 768px de largeur maximale, donnez le style suivant aux divisions avec "class" de "column" :
+- Largeur de 100%
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

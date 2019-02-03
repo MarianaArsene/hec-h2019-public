@@ -1,0 +1,15 @@
+#section-description-produit {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-light {
+    background-color: #ddd;
+}
+
+.btn-primary {
+    background-color: rgba(250, 84, 0, .8);
+}

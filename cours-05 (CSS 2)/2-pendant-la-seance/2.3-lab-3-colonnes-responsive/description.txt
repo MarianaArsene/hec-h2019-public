@@ -1,0 +1,27 @@
+================================================================================
+
+En 2018, nous ne voyons presque plus d'application Web qui ne soit pas  "responsive". Par "responsive", nous voulons dire que son apparence s'adapte en fonction de l'environnement (appareil, largeur de l'écran, etc.) dans lequel l'application est utilisée. 
+De plus, l'affichage avec un système de "grid" (plusieurs colonnes) est très  courante, au point où les librairies CSS - dont nous discuterons à la semaine prochaine - offrent un support natif.
+
+Pour les prochaines 25 minutes,
+En équipes de 2-4 personnes : 
+
+1. Téléchargez les fichiers de départ à partir du compte Github.
+
+2. Essayez de reproduire l'aperçu (qui sera également affiché aux écrans)  correspondant à la solution finale. Regardons aussi ensemble le comportement désiré. Note : Votre mandat est d'écrire le CSS dans le fichier "style.css" sous le commentaire /* CSS à écrire */
+
+Informations requises :
+    Pour les "media queries", vous pouvez vous référer à vos lectures dans le manuel de référence, ou sinon :
+    https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+
+3. Après 10 minutes, je fournirai quelques indices afin de vous aider.
+
+4. Quand les 25 minutes seront écoulées, une équipe viendra à l'avant nous   présenter sa solution et nous l'expliquer, et nous les aiderons dans le cas où ils en ont besoin.
+
+5. Je vous présenterai la solution finale ainsi qu'un peu de théorie en lien  avec ce troisième laboratoire.
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================
