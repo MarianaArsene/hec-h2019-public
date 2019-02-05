@@ -12,4 +12,19 @@
 }
 
 /* CSS à écrire */
-
+.card {
+    width: 340px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.card-body {
+    padding: 12px;
+}
+.card-title {
+    font-size: 1.25em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-img-top {
+    width: 100%;
+}
