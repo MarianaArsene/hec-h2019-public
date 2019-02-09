@@ -1,0 +1,20 @@
+================================================================================
+
+Bootstrap a introduit une composante qui est devenue très populaire : le jumbotron. Prenez le temps d'aller lire là-dessus et de voir quelle utilisation vous pourriez en faire dans le cadre d'une application e-commerce.
+
+Comme travail d'après séance :
+
+1. Consultez l'aperçu fourni
+
+2. Créez un nouveau fichier HTML et ajoutez le template de base
+2.1 Créez une division "container" dans laquelle vous ajouterez le Jumbotron
+
+3. En utilisant Bootstrap, mettez en place un Jumbotron
+
+4. Personnalisez le contenu
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

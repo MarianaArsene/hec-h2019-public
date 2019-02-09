@@ -1,0 +1,29 @@
+Cours 6 - Bootstrap
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+    
+Note : Nous commençons à travailler sur une nouvelle section, alors assurez-vous de télécharger les nouveaux fichiers.
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page HTML.
+    
+======Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de pratiquer votre sens d'analyse.
+
+Détails de construction
+
+3) Utilisez la documentation en-ligne de Bootstrap : http://getbootstrap.com/
+    Plus spécifiquement, les liens suivants, seront très utiles :
+        http://getbootstrap.com/docs/4.0/getting-started/introduction/
+        http://getbootstrap.com/docs/4.0/layout/overview/
+        http://getbootstrap.com/docs/4.0/layout/grid/
+
+4) La première étape concrète est d'inclure la libraire Bootstrap grâce à la  balise <link>. Référez-vous à la documentation.
+
+Note : Regardez la différence déjà en incluant Bootstrap!
+    
+5) La deuxième étape est de créer un "container". Vous trouverez les détails là-dessus dans layout/overview et layout/grid dans la documentation.
+    
+6) Créez ensuite votre système de "row" et "columns", en utilisant les classes Bootstrap prévues à cet effet.
+    
+Voilà, vous êtes maintenant en mesure d'utiliser la librairie CSS la plus populaire au monde!
