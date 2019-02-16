@@ -1,0 +1,24 @@
+#section-description-produit {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-light {
+    background-color: #ddd;
+    color: black;
+}
+
+.btn-primary {
+    background-color: rgba(250, 84, 0, .8);
+    color: white;
+}

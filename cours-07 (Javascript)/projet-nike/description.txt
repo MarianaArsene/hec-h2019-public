@@ -1,0 +1,29 @@
+Cours 7 - JavaScript
+
+Pour cette semaine, nous allons travailler intensément avec un outil qui s'appelle la "console". Assurez-vous donc d'utiliser le navigateur Google Chrome (ou Mozilla Firefox).
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+    
+Note : Nous démarrons d'une version légèrement modifiée du résultat final du cours 5, alors assurez-vous de télécharger les fichiers de départ.
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire le résultat final.
+    
+======Cette semaine, l'aperçu diffère légèrement de ce dont nous sommes habitués. Il reflète le comportement attendu dans la console, lorsque le bouton "Ajouter au panier" est cliqué.
+
+Détails de construction
+
+3) Prenez le temps de bien lire la documentation sur JavaScript disponible sur ZoneCours (avant la séance 7) si vous ne l'avez pas déjà consultée.
+
+4) Naviguez jusqu'à la page index.html dans votre navigateur, et cliquez sur le bouton "Ajouter au panier". Il ne se passe rien, du moins en apparence.
+4a) Maintenant, ouvrez la console du navigateur, et observez qu'à chaque clic, la console vous informe "Le bouton a été cliqué!".
+
+5) Ouvrez maintenant, dans votre éditeur de code, le fichier app.js.
+5a) Prenez le temps de repérer la ligne qui est responable de ce comportement.
+5b) Assurez-vous également de bien comprendre la structure du fichier, et les idées principales. Voici quelques questions pour vous aider à analyser le fichier :
+    - Il y a deux variables... que représentent-elles? 
+    - Quelle ligne est responsable pour la gestion de l'événement "clic" sur le bouton? Notez que nous verrons les gestionnaires d'événement au cours 8 (jQuery).
+    - Quel est le flux général de l'application? (calcul de la quantité d'items, puis du prix total, puis... etc)
+
+6) Utilisez les indices fournis dans le fichier app.js pour arriver au résultat final, tel que présenté dans l'aperçu.
