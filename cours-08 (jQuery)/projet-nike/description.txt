@@ -1,0 +1,30 @@
+Cours 8 - Javascript - la librairie jQuery
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+
+2) Consultez l'aperçu et essayez par vous-mêmes de reproduire la page. Dans ce cas-ci, l'objectif est que l'image principale change lorsque nous passons notre souris par-dessus les "thumbnails" à la gauche. Cela peut difficilement être démontré par une image statique, mais il s'agit de l'objectif de cet exercice.
+
+======Vous êtes encouragés à réellement essayer de reproduire l'aperçu par vous-mêmes avant de lire les détails de construction. Cela vous permettra de pratiquer votre sens d'analyse.
+
+Détails de construction
+
+Note : le code à ajouter se retrouvera uniquement dans le fichier Javascript main.js. L'inclusion de la librairie jQuery a déjà été faite pour vous.
+
+Note 2 : cet exercice est difficile. Ne vous découragez pas si vous n'y arrivez pas, et n'hésitez pas pour chercher en-ligne! 
+
+3) Dans un premier temps, utilisez le sélecteur jQuery pour cibler tous les éléments "thumbnails". Pensez à ce qu'ils partagent... une classe HTML "left-thumb"?
+    
+4) Quel sera l'événement auquel nous voudrons nous attacher? Si l'utilisateur passe sa souris par dessus un élément, il s'agit de... "mouseenter".
+    
+Note : allez lire https://api.jquery.com/mouseenter/
+
+5) À l'intérieur de la fonction anonyme, essayez de faire un "console.log('test');" Si tout se passe bien, vous verrez un message 'test' dans la console lorsque vous passerez votre souris par dessus un des "thumbnails".
+    
+6) Il reste maintenant deux étapes qui sont au coeur de la solution:
+6a) Vous devrez tout d'abord lire un attribut permettant de connaître la nouvelle source de l'image
+6b) Vous devrez changer la source de l'image principale afin qu'elle utilise ce que vous avez récupéré au point 6a
+    
+Note : allez lire https://api.jquery.com/data/
+Note 2  : allez lire http://www.journaldunet.com/web-tech/developpement/1202595-changer-la-source-src-d-une-image-en-jquery-lors-d-un-clic-de-souris/

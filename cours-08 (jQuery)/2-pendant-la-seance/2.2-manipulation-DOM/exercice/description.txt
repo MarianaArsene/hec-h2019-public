@@ -1,0 +1,24 @@
+================================================================================
+
+À votre tour de jouer!
+
+Pour les 10 prochaines minutes, voici le travail à accomplir.
+
+À noter : ce que nous verrons dans cet exercice (et dans celui à la section 2.3) vous aidera grandement pour le travail pratique 3. Comme à l'habitude, nous prendrons le temps d'enregistrer une capsule Tegrity pour présenter la solution. Prenez le temps de bien réviser cette capsule (et celle de l'exercice 2.3) pour vous préparer au TP 3!
+
+1. Prenez le fichier de départ
+
+2. Ajoutez un lien vers jQuery (CDN) et vers un fichier externe JavaScript que vous allez créer.
+
+3. Ajoutez un item de liste contenant la valeur "Sandwich" grâce à JavaScript. Consultez l'aperçu pour voir le résultat attendu.
+
+Indices : 
+Vous effectuerez la sélection sur l'élément avec un "id" de "panier"
+Vous aurez besoin de la méthode append() pour ajouter l'élément de liste
+Consultez : http://api.jquery.com/append/
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================
