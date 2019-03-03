@@ -1,0 +1,56 @@
+================================================================================
+
+Voici la description du travail pratique #3 (Javascript) pour un total de 7.5% de votre note finale.
+
+Mention : Nous verrons certaines notions nécessaires à la remise de ce TP au cours 8 (Javascript + jQuery). Je fournirai également quelques capsules Tegrity vous expliquant quelques concepts. Il est donc possible que certaines étapes vous semblent très difficiles à l'heure actuelle!
+
+--------------------------------------------------------------------------------
+
+Préparation du TP :
+Téléchargez les fichiers de départ, incluant l'aperçu.
+
+Contexte : 
+L'objectif est de mettre en place une mini-application Javascript, permettant d'ajouter au panier d'achat des spectacles (voir l'aperçu).
+
+Note : Le fichier index.html est fonctionnel tel quel et n'a pas besoin de modifications.
+
+Le fichier à remettre est le fichier app.js.
+
+--------------------------------------------------------------------------------
+
+Description du TP :
+Note : Toutes les étapes ci-dessous sont à faire à l'intérieur du fichier app.js
+
+1. Définissez un tabeau Javascript (array) que vous appellerez 'spectacles'
+1.1 Les trois valeurs à contenir à l'intérieur du tableau sont : 
+'MOZART ET BEETHOVEN'
+'BRUNO PELLETIER'
+'HARPE IMPRESSIONNISTE'
+
+2. Vous mettrez en place un gestionnaire d'événement jQuery (event handler) permettant de s'attacher au clic des boutons d'achat.
+
+Documentation conseillée : http://api.jquery.com/click/
+Indice : Regardez bien l'attribut "class" de chacun des boutons d'achat
+
+
+--> Les items 3 et 4 seront programmés à l'intérieur de la fonction du gestionnaire d'événement (item 2)
+
+    3. Vous définirez une variable 'idSpectacle'
+    3.1 Vous lui donnerez la valeur correspondant à l'attribut 'data-id-spectacle' du bouton cliqué
+        À titre d'exemple, si vous cliquez 'ACHETEZ VOS BILLETS' pour le spectacle de BRUNO PELLETIER, vous devriez être en mesure de récupérer la valeur '1' à partir de l'attribut 'data-id-spectacle' et de l'assigner à la variable 'idSpectacle'.
+    Documentation conseillée : https://api.jquery.com/data/
+    Indice : Le sélecteur jQuery $(this) devra être utilisé.
+    
+    4. Vous ajouterez à la liste HTML (attribut id : panier-achat) un élément de liste contenant le nom du spectacle.
+    4.1 Assurez-vous que cet élément de liste (<li>) possède un attribut "class" de "list-group-item"
+    4.2 Utilisez la concaténation* pour combiner des morceau de texte statiques et dynamiques.
+    Documentation conseillée : http://api.jquery.com/append/
+    Indice : La variable 'idSpectacle' vous permettra d'accéder au bon élément du tableau 'spectacles' de manière dynamique.
+
+*Mention : pour avoir tous les points, votre solution finale doit être basée sur la concaténation SANS l'utilisation de if/else, qui causerait ici une duplication de la logique. 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

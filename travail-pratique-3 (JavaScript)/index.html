@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TP 3 (JavaScript)</title>
+    <!-- Inclusion de Bootstrap (CSS) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+        .card-title {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <p><b>Le panier d'achat contient :</b></p>
+                <ul id="panier-achat" class="list-group">
+                </ul>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/edo-de-waart.jpg" alt="Image de l'interprète">
+                    <div class="card-body">
+                        <h5 class="card-title">MOZART ET BEETHOVEN</h5>
+                        <p class="card-text">EDO DE WAART<br>Les 21, 24 et 25 février</p>
+                        <a href="#" data-id-spectacle="0" class="btn btn-primary btn-achat">ACHETEZ VOS BILLETS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/bruno-pelletier.jpg" alt="jennifer-swart">
+                    <div class="card-body">
+                        <h5 class="card-title">BRUNO PELLETIER</h5>
+                        <p class="card-text">CARTE BLANCHE<br>Les 27 et 28 février</p>
+                        <a href="#" data-id-spectacle="1" class="btn btn-primary btn-achat">ACHETEZ VOS BILLETS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/jennifer-swart.jpg" alt="Image de l'interprète">
+                    <div class="card-body">
+                        <h5 class="card-title">HARPE IMPRESSIONNISTE</h5>
+                        <p class="card-text">JENNIFER SWARTZ<br>Le 2 mars 2018</p>
+                        <a href="#" data-id-spectacle="2" class="btn btn-primary btn-achat">ACHETEZ VOS BILLETS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Inclusion de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Inclusion du fichier externe Javascript -->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
