@@ -31,7 +31,7 @@ Quelques informations utiles :
 3.3 Lorsque l'utilisateur clique sur un des boutons "Quick look", vous affichez dans la console "Le bouton permet d'ouvrir la fenêtre modale : {fenetreModale}", où {fenetreModale} est dynamiquement lu à partir de l'attribut data-modal-window du bouton cliqué. Cela remplace l'affichage réel de la fenêtre modale.
 
 Quelques informations utiles :
-- Événement "click" http://api.jquery.com/mouseleave/
+- Événement "click" http://api.jquery.com/click/
 - console.log() pour afficher dans la console
 
 ================================================================================
