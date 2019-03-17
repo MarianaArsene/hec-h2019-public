@@ -1,0 +1,30 @@
+================================================================================
+
+Les sites de commerce électronique veulent souvent communiquer une information à leurs utilisateurs, mais pendant une période spécifique (date de début à date de fin).
+
+Les développeurs ne veulent pas avoir à manuellement ajouter le contenu désiré à la date de début, puis à enlever le contenu à la date de fin. Ils utilisent plutôt des gestionnaires de contenu où ils peuvent préparer leur contenu à l'avance, et spécifier la période pendant laquelle ce contenu sera "actif".
+
+Nous allons ici déveloper une version simplifiée de la bannière d'information sur les Jeux olympiques et paralympiques que Toyota présente aux visiteurs (voir l'aperçu). 
+Si la date actuelle est comprise dans une certaine période, cette banière sera affichée, sinon nous verrons plutôt une bannière de rabais sur la Toyota Camry.
+
+Voici les différentes étapes :
+
+1. Télécharger le fichier de départ index.php
+
+2. Familiarisez-vous avec les variables (vous n'aurez pas à les modifier).
+
+3. Mettez en place un système de condition if/else permettant d'afficher la bannière appropriée en fonction de la date courante.
+3.1 Vous aurez besoin d'un opérateur logique PHP pour valider que la date courant est plus grande que la date de début d'affichage ET qu'elle est plus petite que la date de fin.
+Documentation : http://php.net/manual/en/language.operators.logical.php
+Format : if ($a > 1 && $a < 10) ...
+
+3.2 Amusez-vous à modifier la date de début, puis la date de fin, afin de vous assurer que la bonne bannière est affichée en fonction des dates.
+
+4. Pratiquez-vous, si vous le désirez, à utiliser la commande echo dans le PHP. Remplacez le contenu de chacune des bannières d'alerte par une commande PHP. Vous pouvez aussi créer des variables (ex. une valeur de rabais '20%') que vous allez insérer dans le HTML grâce à du PHP. 
+L'objectif est de jouer avec le concept de cohabitation HTML + PHP. 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

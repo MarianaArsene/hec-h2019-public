@@ -1,0 +1,43 @@
+================================================================================
+
+Maintenant que nous avons terminé la portion Front-End du cours (Blocs : HTML, CSS, JavaScript), nous regarderons la composante Back-End à ce cours-ci.
+
+Nous avons choisi PHP car il s'agit d'un langage très populaire et assez facile à apprendre, mais nous aurions très bien pu considérer d'autres options (Ruby, Python, Java, etc.).
+
+La logique d'affaires (le coeur de l'application) se situe au niveau de la composante Back-End. Il est évident qu'un seul cours ne suffit pas à présenter tout PHP, mais l'essentiel est de comprendre :
+1) Comment un langage back-end permet de générer du contenu dynamique
+2) Comment un langage back-end agit comme pivot entre le front-end et la base de données (plus d'informations là-dessus au cours 10)
+
+================================================================================
+
+Ceci étant dit, prenons le temps d'effectuer une petite démonstration, où nous écrirons notre premier fichier PHP.
+
+1. Créons un fichier PHP : il suffit d'ajouter une extension .php au fichier afin que le serveur comprenne qu'il s'agit d'un fichier PHP
+
+2. Maintenant, écrivons un peu de texte dans le fichier, et regardons ce qui se passe du côté du navigateur si on ouvre le fichier
+2.1 Nous voyons que c'est interprété comme du HTML pour le moment (nous reviendrons plus tard à l'utilité de mélanger HTML et PHP)
+
+3. Définissons des balises PHP permettant au serveur de comprendre qu'il s'agit de commandes PHP, et non pas de HTML
+3.1 <?php ?>
+3.2 Maintenant, que se passe-t-il si nous écrivons du texte à l'intérieur des balises PHP? À l'extérieur?
+
+4. Regardons notre première commande PHP : echo
+4.1 Cela nous permettra d'envoyer du contenu vers le navigateur
+4.2 Affichons 'Hello, World!'
+4.3 Regardons ce qui a été envoyé au navigateur
+
+Et si nous écrivions echo à l'extérieur des balises?
+
+Note : il faut ici réaliser quelque chose de très important : le PHP vit sur le serveur, mais ce qui est envoyé au navigateur demeure une combinaison de HTML, CSS et JavaScript! (le fameux DOM)
+Le PHP est donc "interprété" pour générer du HTML.
+
+5. La question à ce stade-ci est : pourquoi utiliser du PHP au lieu du HTML pour afficher 'Hello, World!'. La réponse est : dans ce cas spécifique il n'y a pas de valeur, mise à part expliquer comment mettre en place un contexte pour écrire du PHP. 
+5.1 Nous verrons au courant de la séance comment le PHP peut jouer un rôle dans la génération dynamique de contenu.
+
+6. Comment pourrais-je ajouter un commentaire en PHP?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

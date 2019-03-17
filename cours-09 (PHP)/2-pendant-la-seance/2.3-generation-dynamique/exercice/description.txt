@@ -1,0 +1,17 @@
+================================================================================
+
+À votre tour de jouer! 
+
+Prenez 10 minutes pour réaliser les étapes suivantes :
+
+1. Téléchargez le fichier de départ et prenez le temps de vous familiariser avec son contenu (dont les variables disponibles).
+
+2. Utilisez les trois variables aux endroits appropriés dans la section HTML pour générer le contenu dynamiquement!
+
+3. Modifiez la valeur d'une des variables dans la section PHP du haut, et observez la modification dans le contenu envoyé au navigateur.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

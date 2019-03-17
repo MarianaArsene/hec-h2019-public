@@ -1,0 +1,22 @@
+================================================================================
+
+Maintenant que nous avons vu comment définir un contexte dans lequel nous pouvons écrire du PHP, ainsi que la base des données et des variables, passons à une démonstration un peu plus concrète.
+
+1. Définissons une variable $client à laquelle nous assignerons la valeur 'Daniel' (chaîne de caractères)
+1.1 Affichons cette variable à l'écran
+
+2. Définissons une variable $soldeCompte à laquelle nous assignerons la valeur 100 (valeur numérique)
+2.1 Diminuons le solde du compte de 20$ suite à un achat
+2.2 Affichons le solde du compte à l'écran
+
+3. Avec des guillemets simples et la concaténation, affichons un message complet où nous donnons le solde du compte avec un contexte.
+
+4. Avec des guillemets doubles et l'interpolation, affichons le même message.
+
+Note : Utilisons <br> pour faire un saut de ligne entre les commandes 'echo' : pourquoi cela fonctionne-t-il? Parce que nous envoyons en fait du HTML lorsque nous utilisons echo. Cela veut dire que les balises sont envoyées au navigateur de la même façon que le texte. Nous pouvons inspecter le contenu pour valider cela.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================
