@@ -1,0 +1,94 @@
+================================================================================
+
+Voici la description du travail pratique #4 (PHP + MySQL) pour un total de 7.5% de votre note finale.
+
+Le contexte de ce travail pratique :
+
+Vous avez démarré votre propre compagnie de cartes cadeaux, pouvant être utilisées dans un ensemble de magasins populaires - Winners, Labaie, Forever 21, H&M, etc.
+
+Au moment de l'utilisation d'une de vos cartes cadeaux dans un de ces magasins, une requête est envoyée vers vos serveurs (votre "API" pour utiliser un terme plus précis) pour débiter la carte.
+
+Exemple : 
+Nadine magasine chez H&M. Elle achète des pantalons à 40$.
+
+H&M envoie une requête vers votre API, afin de 
+A) valider le solde de la carte à Nadine :
+B1) débiter le montant si le solde est suffisant, ou
+B2) débiter le solde restant si le solde est insuffisant (la carte tombera à 0)
+
+Le tout est enregistré sur une base de données afin de conserver l'historique de la carte. 
+
+La carte peut également être rechargée en lui ajoutant 500$ (bouton magique, youppi!)
+
+Notes : 
+- Dans le cadre du TP, nous utiliserons un formulaire pour simuler l'API. Le montant entré dans le champ est le montant à être débité.
+- Le montant de la dernière transaction sera affiché afin de vous aider à valider le fonctionnement de votre application
+- Une bannière d'alerte sera affichée lorsque le montant tombe sous dix dollars
+
+Aussi...
+- Dans une vraie situation, nous voudrions retourner d'autres informations comme le montant débité, le montant restant de la transaction, etc. 
+- Nous voudrions également offrir plus d'options (ex. valider le solde AVANT de débiter un montant), mais il s'agit ici d'un exercice simplifié.
+
+================================================================================
+
+Livrable :
+
+Vous devrez remettre, sur ZoneCours, un seul fichier :
+
+- Le fichier formulaire.html.php (tel que vous l'aurez modifié)
+
+Note : Il y a d'autres étapes pour réussir le travail (ex. initialiser la base de données, ajouter des commandes dans d'autres fichiers PHP, etc.), mais il n'y a rien à remettre pour ces parties. J'assume que vous aurez complété ces étapes, car il serait très difficile de terminer le travail sans les faire.
+
+================================================================================
+
+Voici les étapes concrètes :
+
+------------Préparation du TP------------
+
+1. Téléchargez l'ensemble des fichiers, et prenez le temps de vous familiariser avec les fichiers et la structure.
+1.1 Regardez également l'aperçu, qui présente la solution finale.
+
+------------Base de données------------
+
+2. Préparation de la base de données
+2.1 Assurez-vous d'être en mesure d'accéder à PHPMyAdmin, endroit à partir duquel vous pourrez gérer votre base de données. Si vous n'êtes pas certain comment vous y prendre, consultez la capsule Tegrity à cet effet.
+    Les commandes de base sont également disponibles dans le fichier 'commandes.txt', que vous trouverez dans le dossier 'db-init'
+2.2 Roulez le script d'initialisation dans votre base de données 'c9'. Le script est disponible dans le dossier 'db-init', sous le nom 'script-initialisation.sql'.
+2.3 Assurez-vous d'avoir une table nommée 'transactions' dans votre base de données c9.
+2.4 Assurez-vous d'être en mesure de voir une première transaction de 500$
+2.5 Dans le fichier 'database-functions.php' (dans le dossier 'app'), assurez-vous de changer 'danielparpal' pour votre nom d'utilisateur cloud9 à la ligne 8.
+
+------------Travail PHP------------
+
+3. À partir du fichier index.php, effectuez l'inclusion du fichier 'formulaire.html.php', situé dans le dossier 'app'.
+Regardez la documentation pour la fonction 'include()' à cet endroit : http://php.net/manual/en/function.include.php
+
+4. (2pts) En utilisant la variable $solde, affichez le solde de manière dynamique dans le formulaire grâce à la commande echo en PHP. Cherchez pour le marqueur {Solde dynamique du compte} afin de déterminer l'emplacement.
+
+4. (2pts) En utilisant la variable $montant, affichez le montant de la dernière transaction de manière dynamique grâce à la commande echo en PHP. Cherchez pour le marqueur {montant de la transaction} afin de déterminer l'emplacement.
+
+5. (2.5pts) Mettez en place une condition  permettant d'afficher la bannière d'alerte pour un solde sous 10$.
+Deux mentions importantes pour obtenir les points :
+5.1 Assurez vous que l'affichage de toute la division (balises + contenu interne) soit conditionnel.
+5.2 Il n'y a pas besoin d'utiliser le else. Votre commande PHP se termine donc après l'accolade de fermeture du if.
+
+6. Pour 1pt : Arrondi du solde à 2 décimales
+Contexte : lorsque vous entrez un montant décimal (ex. 50.42), le solde affiché contiendra un grand nombre de décimal.
+Exemple : Le solde du compte est 400.38000106811523$.
+Cela est dû à certaines propriétés sur les nombres décimaux (float) et de leur stockage, dont nous ne parlerons pas dans le cours.
+Toutefois, en utilisant une fonction d'arrondi, vous êtes en mesure d'arrondir à 2 décimales le solde, peu importe sa valeur.
+
+Utilisez donc la fonction round(), avec la documentation disponible à cet endroit : 
+Documentation : http://php.net/manual/en/function.round.php
+
+Note : Cette commande round() doit se retrouver dans les mêmes balises PHP que celles utilisées pour afficher dynamiquement le solde.
+
+Conseils :
+- Assurez-vous de tester avec des valeurs décimales et de bien comprendre le "problème" avant de vous lancer dans la solution!
+- De plus, je vous encourage à effectuer quelques tests isolés sur la fonction round() dans un autre fichier.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

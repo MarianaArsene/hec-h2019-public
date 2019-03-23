@@ -1,0 +1,26 @@
+Les commandes ci-dessous doivent être réalisées dans une fenêtre 'bash' dans cloud9. Si vous n'avez pas de fenêtre 'bash', vous pouvez cliquer sur Window -> New Terminal pour avoir accès à une fenêtre 'bash'.
+
+--------------------------------------------------------------------------------
+Étape 1 : À FAIRE UNE SEULE FOIS, SINON PERDREZ VOS DONNÉES :
+
+mysql-ctl install
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Étape 2 : À faire une première fois pour installer PHPMyAdmin, puis il est possible d'utiliser la commande à nouveau pour récupérer le lien :
+
+phpmyadmin-ctl install
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Étape 3 : Seulement au besoin (je n'ai jamais eu à le faire en deux ans)
+
+mysql-ctl start
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Étape 4 : Utiliser le lien fourni vers PHPMyAdmin, et entrer votre nom d'utilisateur avec un mot de passe vide pour vous connecter
+--------------------------------------------------------------------------------
+
+Source : https://community.c9.io/t/setting-up-phpmyadmin/1723
+
