@@ -1,0 +1,30 @@
+Cours 10 - MySQL - Intégration d'une base de données
+
+=================================================
+Mention importante : Vous êtes encouragés à télécharger la nouvelle version du Projet Nike en lien avec le Cours 10, car plusieurs modifications ont été apportées.
+=================================================
+
+Avant de débuter, assurez-vous d'avoir votre accès à PHPMyAdmin, tel que nous l'avons vu dans le cours 10.
+
+Voici les étapes à réaliser :
+
+1) Téléchargez les fichiers de départ dans le dossier /code-debut, ainsi que l'aperçu (apercu.jpg). 
+
+2) Ouvrez PHPMyAdmin - n'oubliez pas de garder le lien en favoris pour vous simplifier la vie.
+    
+3) Initialisez la base de données en utilisant le script fourni.
+    
+4) En utilisant PHPMyAdmin, observez le contenu de la table 'products' et trouvez le produit en vedette. Il correspondra au produit pour lequel la valeur de "is_featured" est de 1.
+    
+===============Utilisation de la base de données===============
+
+Tout le travail suivant est à faire dans 'index.php'
+
+5) Créez une connexion à la base de données en incluant le fichier de connexion. N'oubliez pas de modifier le nom d'utilisateur.
+
+6) Sélectionnez le produit en vedette en incluant le fichier avec la requête SELECT.
+
+7) Utilisez la fonction 'var_dump()' pour afficher le contenu de la variable $produit.
+    
+8) Observez le résultat dans le navigateur, et comparez-le avec le produit que vous aviez identifié à l'étape 4.
+Note: il est possible que le formattage de votre 'var_dump()' diffère légèrement de celui de l'aperçu.

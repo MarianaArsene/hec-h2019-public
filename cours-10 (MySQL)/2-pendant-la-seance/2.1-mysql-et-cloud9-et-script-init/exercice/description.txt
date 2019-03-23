@@ -1,0 +1,17 @@
+================================================================================
+
+À votre tour d'initialiser votre base de données c9. Prenons 5 minutes pour faire les étapes ci-dessous.
+
+1. Téléchargez le fichier 'commandes.txt' si ce n'est pas déjà fait.
+
+2. Suivez les étapes requises pour accéder à l'outil graphique PHPMyAdmin. L'idéal est d'avoir l'outil PHPMyAdmin en favoris pour vous simplifier la vie.
+
+3. Dans la base de données c9, exécutez le script d'initialisation SQL afin de mettre en place la table 'articles'.
+
+4. Observez le contenu de la table 'articles'. Vous pouvez même vous amuser à ajouter un nouvel article manuellement.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

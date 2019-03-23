@@ -1,0 +1,30 @@
+================================================================================
+
+Reprenons l'exercice 2.3 que vous avez complété pendant le cours.
+
+Cet exercice permettait de comprendre comment utiliser une requête INSERT INTO à partir de PHP, mais il ne permet pas de saisir comment les informations envoyées à la base de données peuvent être déterminées de manière dynamique.
+
+Essayons donc maintenant d'inclure le formulaire.
+
+Les points 1 et 2 permettent seulement de voir les données de la table des articles (comme à l'exercice 2.2).
+
+1. Dans index.php, ajoutez une inclusion vers le fichier 'db/select-articles.php' après l'inclusion du fichier d'insertion (point 3).
+
+2. Dans index.php, ajoutez l'inclusion vers le fichier d'affichage 'views/app.html.php'
+
+3. Rafraîchissez votre page, afin de voir la table de tous les articles.
+
+4. Maintenant, nous devons corriger un petit problème. Nous devons seulement ajouter un article au moment de la soumission d'un formulaire, et non pas à chaque rafraîchissement. Utilisez la condition suivante pour y arriver. Votre inclusion vers le fichier d'insertion dans la base de données doit être conditionnelle :
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // inclusion du fichier effectuant la requête INSERT INTO
+}
+
+5. Finalement, connectez votre formulaire à la requête d'insertion :
+Utilisez : $_POST['attribut_name_correspondant_dans_formulaire'] pour donner des valeurs dynamiques à nos variables
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

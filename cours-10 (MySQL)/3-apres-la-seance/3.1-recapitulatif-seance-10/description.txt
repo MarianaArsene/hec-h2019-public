@@ -1,0 +1,24 @@
+================================================================================
+
+Imaginez que vous vous apprêtez à lancer votre site de e-commerce dans quelques mois. Vous désirez toutefois bâtir une liste de distribution afin d'informer vos clients potentiels des prochaines étapes, de la date de lancement finale, ainsi que des rabais en lien avec le lancement.
+
+Équipés de vos nouvelles connaissances en développement Web, vous construisez une petite application que vous pourrez partager avec vos contacts. Vous souhaitez qu'ils entrent leur prénom et courriel, afin de construire votre liste de distribution.
+
+Voici quelques étapes concrètes pour construire l'application :
+
+1. Téléchargez les fichiers initiaux, incluant l'aperçu du résultat final
+
+2. Prenez le script d'initialisation, et exécutez-le dans PHPMyAdmin, sous la base de données c9
+
+3. En vous inspirant de l'exercice 2.4 sur les formulaires que nous avons fait à la dernière séance (10), mettez en place le code permettant l'interaction désirée.
+
+Quelques conseils :
+- Assurez-vous de comprendre l'impact que chaque élément que vous ajoutez ou modifiez, plutôt que de simplement copier-coller tout le code de l'exercice 2.4 sans avoir une compréhension réelle.
+- N'oubliez pas de connecter le formulaire avec la variable $_POST
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================
